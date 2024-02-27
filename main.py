@@ -6,7 +6,7 @@ while translating:
     should_continue = input("Do you want to translate a message? Type 'Y' or 'N': ").upper()
 
     if should_continue == "Y":
-        message = input("What's the message? ")
+        message = input("What's the message? ").lower()
         action = input("Do you want to encode or decode the message? ").lower()
 
         if action == "encode":

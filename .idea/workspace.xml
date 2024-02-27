@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd118d4-dee5-4bf7-bdbb-30b8ae329ba7" name="Changes" comment="Write instruction on how to split message string inside of if and elif statements to avoid bug when splitting the string in morse code. Change order of action and message inputs for better UX" />
+    <list default="true" id="8fd118d4-dee5-4bf7-bdbb-30b8ae329ba7" name="Changes" comment="Write logic for decoding. Switch message and action inputs again to avoid bug where program continued to run even with an invalid input for the action." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709052412642</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Write logic for decoding. Switch message and action inputs again to avoid bug where program continued to run even with an invalid input for the action.">
+      <option name="closed" value="true" />
+      <created>1709052952228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709052952228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +121,7 @@
     <MESSAGE value="Structure skeleton of logic" />
     <MESSAGE value="Write logic for encoding message." />
     <MESSAGE value="Write instruction on how to split message string inside of if and elif statements to avoid bug when splitting the string in morse code. Change order of action and message inputs for better UX" />
-    <option name="LAST_COMMIT_MESSAGE" value="Write instruction on how to split message string inside of if and elif statements to avoid bug when splitting the string in morse code. Change order of action and message inputs for better UX" />
+    <MESSAGE value="Write logic for decoding. Switch message and action inputs again to avoid bug where program continued to run even with an invalid input for the action." />
+    <option name="LAST_COMMIT_MESSAGE" value="Write logic for decoding. Switch message and action inputs again to avoid bug where program continued to run even with an invalid input for the action." />
   </component>
 </project>
