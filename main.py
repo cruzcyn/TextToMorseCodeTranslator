@@ -6,12 +6,13 @@ while translating:
     should_continue = input("Do you want to translate a message? Type 'Y' or 'N': ").upper()
 
     if should_continue == "Y":
-        message = input("What's the message? ")
         action = input("Do you want to encode or decode the message? ").lower()
-
-        list_of_characters = list(message)
+        message = input("What's the message? ")
 
         if action == "encode":
+            # Separate the message into a list so we can search each character in the dictionary:
+            list_of_characters = list(message)
+
             # "Translate" the given input to morse code using the values from the morse_code dictionary:
             message_to_morse_code = [morse_code[char] for char in message]
 
@@ -19,7 +20,9 @@ while translating:
             message_to_morse_code = " ".join(message_to_morse_code)
             print(f"Here's your message. Keep it safe: {message_to_morse_code}")
         elif action == "decode":
-            pass
+            # Test message (hello) in morse code = ".... . .-.. .-.. ---"
+            list_of_characters = message.split(" ")
+            print(list_of_characters)
         else:
             print("Invalid input. Try again.")
 
